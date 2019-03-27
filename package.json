@@ -1,0 +1,33 @@
+{
+  "name": "mongoose-jest-setup",
+  "version": "1.0.0",
+  "description": "A test setup using Mongoose, MongoDB Memory Server and Jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "cross-env NODE_ENV=test jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedromdev/mongoose-jest-setup.git"
+  },
+  "keywords": [
+    "mongoose",
+    "jest",
+    "mongodb-memory-server",
+    "test"
+  ],
+  "author": "Pedro Alves",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pedromdev/mongoose-jest-setup/issues"
+  },
+  "homepage": "https://github.com/pedromdev/mongoose-jest-setup#readme",
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "mongoose": "^5.4.20"
+  },
+  "devDependencies": {
+    "jest": "^24.5.0",
+    "mongodb-memory-server": "^4.2.1"
+  }
+}
