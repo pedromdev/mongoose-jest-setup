@@ -1,5 +1,5 @@
 # Mongoose Jest setup
-##### A test setup  using Mongoose, MongoDB Memory Server and Jest.
+#### A test setup  using Mongoose, MongoDB Memory Server and Jest.
 
 Follow these steps to getting start:
 
