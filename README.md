@@ -13,15 +13,15 @@ $ npm run test
 To start the MongoDB memory server and connect to it with mongoose, you just need call MongooseConnection.open on beforeAll:
 
 ``` Javascript
-beforeAll(() => {
-  MongooseConnection.open()
+beforeAll(async () => {
+  await MongooseConnection.open()
 });
 ```
 
 And to stop the server and mongoose, call MongooseConnection.close on afterAll:
 
 ``` Javascript
-afterAll(() => {
-  MongooseConnection.close()
+afterAll(async () => {
+  await MongooseConnection.close()
 });
 ```
