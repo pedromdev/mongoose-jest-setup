@@ -24,7 +24,7 @@
   "homepage": "https://github.com/pedromdev/mongoose-jest-setup#readme",
   "dependencies": {
     "cross-env": "^5.2.0",
-    "mongoose": "^5.4.20"
+    "mongoose": "^5.7.5"
   },
   "devDependencies": {
     "jest": "^24.5.0",
